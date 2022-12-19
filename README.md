@@ -4,3 +4,12 @@ Console program to managing users
 
 
 Database name: workshop2
+Database table:
++------------------+--------------+------+-----+---------+----------------+
+| Field            | Type         | Null | Key | Default | Extra          |
++------------------+--------------+------+-----+---------+----------------+
+| id               | int(11)      | NO   | PRI | NULL    | auto_increment |
+| email            | varchar(255) | NO   | UNI | NULL    |                |
+| username         | varchar(255) | NO   |     | NULL    |                |
+| password         | varchar(60)  | NO   |     | NULL    |                |
++------------------+--------------+------+-----+---------+----------------+
